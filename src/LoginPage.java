@@ -96,7 +96,6 @@ public class LoginPage extends JFrame implements ActionListener {
         else if (e.getSource() == signup) {
             dispose();
             new AddAdmin();
-
         }
     }
 }
